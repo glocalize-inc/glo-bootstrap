@@ -15,3 +15,10 @@ K8s를 이용한 MSA 환경에서 개발 시 빠른 환경구축, 일관성있�
 3. `node dist/dev/main`으로 application을 실행 & 테스트
 
 - [Swagger docs](http://localhost:3000/docs/glo-bootstrap)
+
+# Publish
+
+현재 수동으로 배포 중
+
+1. `npm run build`
+2. `npm publish`
