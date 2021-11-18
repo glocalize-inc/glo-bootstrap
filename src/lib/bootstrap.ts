@@ -49,9 +49,6 @@ function buildSwagger({
 type BootstrapParams = {
   module: any;
   srcRepositoryName: string;
-  /**
-   * @default process.env.SERVICE_NAME
-   */
   serviceName?: string;
   /**
    * @default 3000
