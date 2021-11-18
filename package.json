@@ -5,6 +5,7 @@
   "author": "yungik@glocalizeinc.com",
   "private": false,
   "license": "ISC",
+  "files": ["lib/**/*"],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rimraf ./lib && tsc",
